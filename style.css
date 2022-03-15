@@ -1,0 +1,16 @@
+.read {
+    background-color: #636363;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -8px;
+}
+
+.read#read1 {
+   flex-direction: column;
+}
+
+button {
+    color: white;
+    background-color: blue;
+}
