@@ -37,3 +37,44 @@ img {
 ul {
     list-style-type: none;
 }
+
+.what {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.another {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 150px;
+    margin: 8px -8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.here {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.dao {
+    font-weight: bolder;
+    font-size: 28px;
+    text-align: right;
+}
