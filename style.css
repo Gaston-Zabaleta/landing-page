@@ -1,3 +1,7 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .read {
     background-color: #1F2937;
     display: flex;
@@ -13,8 +17,10 @@
     margin-bottom: -13px;
 }
 
-p {
+p,
+a {
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .hero {
@@ -26,7 +32,7 @@ button {
     color: white;
     background-color: blue;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 img {
@@ -77,4 +83,39 @@ img {
     font-weight: bolder;
     font-size: 28px;
     text-align: right;
+}
+
+.endless {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: white;
+    border-radius: 15px;
+    padding: 60px;
+    margin: 100px;
+}
+
+.last {
+    font-weight: bolder;
+}
+
+.perfect {
+    width: 180px;
+    height: auto;
+    font-size: 14px;
+    color: white;
+    border-color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-top: 28px;
+}
+
+.finally {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+    margin: -8px;
 }
